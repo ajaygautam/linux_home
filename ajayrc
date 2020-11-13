@@ -1,0 +1,7 @@
+if [ $SHELL != '/bin/bash' ]
+then
+	echo This is for bash shell only. Exiting...
+	echo 1
+fi
+
+[[ -f ~agautam/.ajay/bashrc ]] && . ~agautam/.ajay/bashrc

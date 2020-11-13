@@ -1,0 +1,6 @@
+BASH_FILE=~agautam/.ajay/bashrc
+[[ -f $BASH_FILE ]] && . $BASH_FILE
+
+## Fix stuff that doesn't work on Mac 
+alias ls='ls -hF'
+export PS1='\[\e]0;\w\a\]\[\e[31m\]\u@\h \[\e[33m\]\w\[\e[0m\] \$ '
