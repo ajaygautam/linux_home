@@ -72,6 +72,7 @@ function add_to_path() { # Only if it exists
 }
 
 #add_to_path /Library/Frameworks/Python.framework/Versions/3.5/bin
+add_to_path /usr/local/opt/ruby/bin
 add_to_path $HOME/bin
 add_to_path /usr/local/bin
 add_to_path $HOME/tools/flutter/bin
