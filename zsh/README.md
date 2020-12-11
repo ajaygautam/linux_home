@@ -6,3 +6,11 @@ Add to ~/.zshrc at the bottom:
 ```
 source $HOME/workspace/linux_home/zsh/zshrc.sh
 ```
+
+Install https://github.com/powerline/fonts
+
+Install recommended font... yes really! https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+
+Install: https://github.com/romkatv/powerlevel10k
+Then configure: `p10k configure`
+
