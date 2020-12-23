@@ -5,4 +5,6 @@ alias fgrep='fgrep --color=auto'              # show differences in colour
 
 export EXINIT="set number tabstop=4 autoindent ignorecase hlsearch | syntax on"
 
-export PATH=$PATH:$HOME/tools/flutter/bin:$HOME/bin
+export FLUTTER_HOME="$HOME/tools/flutter"
+export PATH=$PATH:$FLUTTER_HOME/bin:$HOME/bin
+export PUB_CACHE="$FLUTTER_HOME/.pub-cache"
