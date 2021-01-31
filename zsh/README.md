@@ -1,18 +1,11 @@
-get this into workspace/linux_home
+Get this into workspace/linux_home
 
-Install ohmyzsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-
-Add to ~/.zshrc at the bottom:
-```
-source $HOME/workspace/linux_home/zsh/zshrc.sh
-```
-
-Install recommended font... yes really! https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
-
-Install Font Awesome.
-
-Install: https://github.com/romkatv/powerlevel10k
-Then configure: `p10k configure`
+1. Install recommended font... yes really! https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+1. Set Font as default in Apple Terminal
+1. Install ohmyzsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+1. Add to ~/.zshrc at the bottom: `source $HOME/workspace/linux_home/zsh/zshrc.sh`
+1. Install: https://github.com/romkatv/powerlevel10k
+1. Restart terminal. If needed: configure: `p10k configure`
 
 If you still have the Mac USB keyboard... add this to .zshrc
 See https://github.com/romkatv/powerlevel10k/issues/1163 for details.
