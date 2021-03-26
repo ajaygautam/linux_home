@@ -78,3 +78,5 @@ add_to_path /usr/local/bin
 add_to_path $HOME/tools/flutter/bin
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 add_to_path $ANDROID_HOME/platform-tools
+
+alias nosleep="while true; do echo -n .; sleep 100; done"
