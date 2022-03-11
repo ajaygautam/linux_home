@@ -43,7 +43,7 @@ settitle ()
 }
 
 #### Ajay ####
-if [ $USER == 'agautam' -o $USER == 'montu' ]
+if [ "$USER" == "agautam" -o "$USER" == "montu" ]
 then
 	if [[ -d ~/work/git ]]; then
 	  alias g="cd ~/work/git"
